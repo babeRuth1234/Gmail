@@ -1,0 +1,314 @@
+.srch-hold {
+    display: flex;
+    /* border-bottom: solid 1px red; */
+    width: 100%;
+    justify-content: center ;
+    margin-top: 5%;
+}
+
+.Search {
+    /* height: fit-content; */
+    
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* border: solid red; */
+    justify-content: center;
+    gap: 1rem;
+    padding: 4px;
+    box-shadow: 1px 1px 2.7px 5px #cecece;
+    border-radius: 50px;
+    background-color: #eef3fb;
+    
+}
+
+
+.bar {
+    
+    scale: 1.4;
+    width: 50px;
+    /* border: solid green 1px; */
+    height: 20px;
+    color: #1f1f1f;
+}
+
+
+.in {
+    height: 60px;
+    border: none;
+    width: 85%;
+    /* border: solid yellow 1px; */
+    font-size: 20px;
+    color: #333633;
+    background-color: #eef3fb;
+    outline: none;
+
+
+}
+
+.Mword {
+    transform: translateY(-1.5px);
+
+    /* outline: solid blue 1px; */
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ;
+    font-weight: 100;
+    
+}
+
+.m{
+    transform: translateY(-2px);
+    justify-content: center;
+    text-align: center;
+   vertical-align: middle; 
+   justify-items: center;
+   margin-left: 4%;
+  background-color: #5d4037;  
+  color: white;
+  height: 47px;
+  width: 47px;
+  border-radius: 50%;
+}
+
+.email-cont {
+    display: flex;
+    /* border-bottom: solid 1px red; */
+    width: 100%;
+    /* justify-content: center ; */
+    padding-left: 1.7%;
+    flex-direction: column;
+}
+
+.tos {
+    letter-spacing: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.icon {
+    margin-right: 3%;
+
+    width: 4.5%;
+    /* border: solid black 1px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.tag {
+    vertical-align: middle;
+    /* border: solid 1px blue; */
+ 
+}
+.text {
+    /* border: solid green 1px; */
+    width: 70%;
+}
+
+.e-holder {
+    display: flex;
+    width: 95%;
+    /* border: solid 1px grey; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 2%;
+
+}
+
+.num {
+    /* border: solid 1px yellow; */
+    width: 25.5%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+
+.number {
+    background-color: #81c995;
+    width: 25%;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: bolder;
+}
+
+.btn {
+    background: transparent;
+    outline: none;
+    border-radius: 50px;
+}
+.other-male {
+    display: flex;
+    width: 95%;
+    line-height: 1px;
+    margin-bottom: 3%
+    /* border: solid green 1px; */
+}
+.bold {
+    font-weight: bolder;
+}
+
+.e-holder {
+   line-height: 1px;
+}
+
+.let {
+    margin-right: 3%;
+    transform: translateY(9px);
+    width: 5%;
+    /* border: solid purple 22px; */
+    display: flex;
+    justify-content: center;
+   /* margin-left: 4%; */
+  background-color: #5d4037;  
+  color: white;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+    
+    
+}
+
+.center {
+    width: 70%;
+    /* border: solid 1px red; */
+    line-height: 1%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    
+
+    
+}
+.gword {
+    /* transform: translateY(-1.5px); */
+    display: flex;
+    /* outline: solid blue 1px; */
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif  ;
+    font-weight: 100;
+    align-self: center;
+    vertical-align: middle;
+
+}
+
+.star {
+    display: flex;
+    flex-direction: column;
+    margin-left: 18%;
+    text-align: right;
+}
+
+.st {
+    margin-left: 57%;
+    transform: translateY(15px);
+}
+
+.git {
+    letter-spacing: 1px;
+
+}
+
+.date {
+    /* letter-spacing: -1px; */
+    /* font-weight: bolder; */
+    font-size: 20px;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    
+}
+
+.compo {
+    display: flex;
+    border: solid 1px red;
+    justify-content: flex-end;
+    width: 10%;
+    vertical-align: middle;
+    position: fixed;
+    transform: translateY(800px);
+    transform: translateX(1150px);
+}
+
+.d {
+    transform: translateX(15px);
+}
+.blue-box{
+    gap: 0.3rem;
+    display: flex;
+    justify-content: center;
+    width: 14.2%;
+    height: 13.8%  ;
+    /* padding: .25rem .45rem; */
+    color: #001d35;
+    background: #c2e7ff;
+    border-radius: 23px;
+    box-shadow: 1px 1px 2.7px 5px #cecece;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    position: fixed;
+    right: 50px;
+    transform: translateY(-10px);
+    bottom: 15px;
+    z-index: 99;
+    font-size: 30px;
+
+}
+
+.pen {
+    display: flex;
+   
+    justify-content: center;
+}
+
+.buttom {
+    /* border: solid 1px red; */
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    background-color: #f1f5fb;
+    box-shadow: 1px 0px 5px 1px #cecece;
+
+
+}
+
+.btn:hover {
+    background-color: #81c995;
+
+}
+
+.inmail {
+    display: flex;
+    justify-content: center;
+    /* border: solid 1px blue; */
+    width: 20%;
+    text-align: center;
+    color: #001d35;
+}
+
+.zoom {
+    /* border: green 2px solid; */
+    width: 20%;
+    text-align: center;
+    color: #444746;
+}
+
+.c {
+    transform: translateY(25px);
+    font-size: 40px;
+}
+
+.f {
+  background-color: #f15228;
+    
+}
+
+.e {
+    background-color: #001d35;
+}
+
+.g {
+    background-color: green;
+}
+
+.t {
+    background-color: black;
+}
